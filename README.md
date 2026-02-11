@@ -29,22 +29,22 @@ Tech Stack
 ---
 
 Key Capabilities
-- Business logic separation for maintainable deployments
+- Clear separation of concerns for maintainable and scalable deployments
 - SQL Server schema design and stored procedure management
 - Controlled schema changes across environments
 - Configuration-based environment management
 - Operational dashboards and KPI reporting
-- Structured source control using Git
+- Structured source control and change tracking using Git/GitHub
 
 ---
 
- My Contributions
+My Contributions
 - Designed and maintained a multi-tier application structure
 - Implemented backend business logic and data access layers
 - Developed SQL Server schemas, stored procedures, and database scripts
 - Managed environment-specific configurations (Web.config / Release configs)
 - Integrated SSRS reporting for recycling metrics and revenue visibility
-- Used Git for structured commits and version control
+- Used Git/GitHub for structured version control and change tracking
 - Ensured deployment readiness and operational stability
 
 ---
@@ -59,9 +59,8 @@ How to Run
 ---
 
 Operational Impact
-- Enabled structured recycling data tracking
-- Improved visibility into landfill diversion and revenue reporting
+- Enabled structured recycling data tracking across operational workflows
+- Improved operational visibility through SSRS-based landfill diversion and revenue reports
 - Supported maintainable configuration management across environments
 
-- Azure Cloud Deployment
-- REST API Integration
+
