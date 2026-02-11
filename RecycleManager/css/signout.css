@@ -1,0 +1,138 @@
+﻿/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen; /* Dark background */
+    color: green; /* Light text color for contrast */
+}
+
+.signout-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: lightgreen; /* Dark container background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header h1 {
+    color: #4caf50; /* Green color for header */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Icon Container Styles */
+.icon-container {
+    margin: 30px 0;
+}
+
+.recycling-icon {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Main Content Styles */
+h2 {
+    font-size: 2rem;
+    color: #4caf50; /* Green for subheading */
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #b0b0b0; /* Lighter gray text for body */
+    margin-bottom: 30px;
+}
+
+/* Button Group Styles */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    background-color: #4caf50; /* Green button background */
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #388e3c; /* Darker green on hover */
+        transform: translateY(-3px);
+    }
+
+.home-btn {
+    background-color: #2c6b28; /* Dark green for the home button */
+}
+
+    .home-btn:hover {
+        background-color: #225018; /* Even darker green on hover */
+    }
+
+.login-btn {
+    background-color: #212121; /* Black for the login button */
+}
+
+    .login-btn:hover {
+        background-color: #181818; /* Darker black on hover */
+    }
+
+/* Footer Styles */
+footer {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+    .social-icons a:hover {
+        transform: scale(1.1);
+    }
+
+footer p {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #999; /* Light gray footer text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .signout-container {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 12px 20px;
+    }
+
+    .social-icons a {
+        margin: 0 5px;
+    }
+}
